@@ -1,0 +1,4 @@
+<<<<<<< HEAD
+wug.txtwug2.txt=======
+wug.txtnotwug.txt
+>>>>>>>

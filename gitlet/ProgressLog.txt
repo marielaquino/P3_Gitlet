@@ -1,0 +1,32 @@
+Nov. 29 2017
+What I worked on:
+    init method and condensing the main / gitlet / commands class.
+
+What I understand better:
+    I understand that the gitlet "object" or repository type space is where we are working with commits and blobs.
+    Right now, I have my repository space represented by the Main class where the commands are called, which stores
+    different pieces of information like the directory strings.
+
+    I understand that serialization is used to store our changes to the (repository space?) after commands are called,
+    since the program ceases to run after each call.
+
+    I understand that we are using SHA1 to access blobs and commits.
+
+What needs further clarification:
+    - init timestamps?
+    - how are we tracking branches?
+        - commit chains are branches. when they split, then we have two branches. do we track with a branch
+        class? or do we just find the split point?
+    - do we serialize the init command? or other commands? what?
+    how does serialization track the relationship between commits and blobs?
+
+What I literally don't understand at all:
+    - what is the staging space?
+
+Plan for tomorrow:
+    - ask about init
+    - ask about add
+    - ask about testing?
+
+
+
